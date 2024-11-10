@@ -8,7 +8,9 @@ st.title('Document Classification')
 
 
 def categorize(doc):
-    url = "http://crmgpu5-10042:8000/cluster"
+    host='0.0.0.0'
+    port = '8000'
+    url = f"http://{host}:{port}/cluster"
     
     payload = json.dumps({
       "document": doc
