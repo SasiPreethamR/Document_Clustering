@@ -52,6 +52,6 @@ async def t2sql(request: RequestModel):
         return {"result":{'status':'Failure'}}
 
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=83333)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=83333)
