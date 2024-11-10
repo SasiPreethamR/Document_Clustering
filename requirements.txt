@@ -1,0 +1,10 @@
+numpy
+pandas
+wordcloud
+matplotlib
+torch
+sentence_transformers
+transformers
+datasets
+fastapi
+streamlit
